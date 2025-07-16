@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #000;
+  background: #0a0a0a;
   font-family: 'Segoe UI', sans-serif;
   color: #fff;
   overflow: hidden;
@@ -17,7 +17,6 @@ body {
   display: flex;
   justify-content: center;
   padding: 10px;
-  background: #1a1a1a;
   gap: 30px;
   font-weight: bold;
   font-variant-caps: all-petite-caps;
@@ -41,7 +40,7 @@ body {
 .left-pane {
   width: 66.67vw;
   height : 100vh;
-  background-image: linear-gradient(to right, #5a5a5a, #1a1a1a);
+  background-image: linear-gradient(to right, #5a5a5a, #0a0a0a);
   padding: 20px;
 }
 
@@ -84,7 +83,6 @@ gap: 20px;
 
 .right-pane {
   width: 33.33vw;
-  background: #1a1a1a;
   padding: 20px;
   display: flex;
   align-items: center;
