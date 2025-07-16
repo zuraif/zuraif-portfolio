@@ -40,7 +40,8 @@ body {
 
 .left-pane {
   width: 66.67vw;
-    background-image: linear-gradient(to right, #5a5a5a, #1a1a1a);
+  height : 100vh;
+  background-image: linear-gradient(to right, #5a5a5a, #1a1a1a);
   padding: 20px;
 }
 
