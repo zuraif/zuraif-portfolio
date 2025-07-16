@@ -1,0 +1,24 @@
+body {
+    background: #0f0f0f;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+h1 {
+    color: #00ffd5;
+}
+h2 {
+    margin-top: 40px;
+    color: #00bfff;
+}
+ul li {
+    margin-bottom: 10px;
+}
+a {
+    color: #00ffd5;
+}
