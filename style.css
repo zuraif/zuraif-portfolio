@@ -40,16 +40,16 @@ body {
 
 .left-pane {
   width: 66.67vw;
-    background-image: linear-gradient(#5a5a5a, #1a1a1a);
+    background-image: linear-gradient(to right, #5a5a5a, #1a1a1a);
   padding: 20px;
 }
 
-.grid-container {
-  display: grid;
-  height: 100%;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 20px;
+.parent {
+display: grid;
+height: 100%;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(10, 1fr);
+gap: 20px;
 }
 
 .glassy-box {
@@ -63,23 +63,13 @@ body {
   text-align: center;
 }
 
-.glassy-box.tall {
-  grid-column: span 2;
-  grid-row: span 2;
-}
 
-.glassy-box.small {
-  grid-column: span 1;
-  grid-row: span 1;
-}
 
-.glassy-box.wide {
-  grid-column: span 4;
-  grid-row: span 1;
-  justify-content: space-between;
-  padding: 0 30px;
-  font-size: 1.5em;
-}
+.div1 { grid-area: 1 / 1 / 6 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 4; }
+.div3 { grid-area: 2 / 2 / 6 / 3; }
+.div4 { grid-area: 2 / 3 / 6 / 4; }
+.div5 { grid-area: 6 / 1 / 11 / 4; }
 
 .arrow {
   background: none;
