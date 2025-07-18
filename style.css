@@ -93,7 +93,7 @@ font-size: 2em;
 
 .left-pane {
   width: 66.67vw;
-  background-image: url("leftPLaneBackGround.svg"),linear-gradient(to right, #5a5a5a, #0a0a0a);
+  background-image: url("leftPLaneBackGround.svg");
   padding: 20px;
 }
 
